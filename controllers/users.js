@@ -1,4 +1,4 @@
-const usersData = require('../data/users')
+const usersData = require('../controllers/users')
 const User = require('../model/user')
 
 exports.getUsers = (req, res, next) => {
